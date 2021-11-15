@@ -1,0 +1,19 @@
+
+    cloudflared_init
+
+
+    CFINITD_CERT
+
+
+
+
+
+    Creating Tunnel:
+
+    cloudflared tunnel create --output json <name>
+    cloudflared tunnel route lb <name> <lb-name> <aws region>
+
+    Deleting Tunnel:
+
+    cloudflared tunnel cleanup
+    cloudflared tunnel delete
